@@ -655,12 +655,13 @@ footer .uk-navbar-nav > li > a:hover {
 footer .uk-navbar-nav > li.uk-active > a {
   color: rgba(255, 255, 255, 0.9);
 }
-footer .uk-navbar-nav > hr {
-  height: 20px;
-  margin-top: 30px;
-  opacity: 0.6;
-  margin-right: 20px;
+
+.uk-subnav-divider > ::before {
+  content: "";
+  height: 1.5em;
   margin-left: 20px;
+  margin-right: 20px;
+  border-left: 1px solid transparent;
 }
 
 /* 
